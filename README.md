@@ -1,2 +1,3 @@
 # web-scrapping
-Scrap youtube-video titles, views and date of any youtube channel
+
+Scrap youtube-video titles, views and date of any youtube channel and save in CSV file.
