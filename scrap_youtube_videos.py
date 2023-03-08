@@ -34,6 +34,6 @@ result = [{"title":t.text, "views":v.text, "date":d.text} for t, v, d in zip(tit
 
 df = pd.DataFrame(result, columns=['title', 'views', 'date'])
 df.index += 1 
-df.to_csv('CAS.csv', index_label='SN')
+df.to_csv('video_details.csv', index_label='SN')
 
 driver.quit()
